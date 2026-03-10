@@ -1,3 +1,12 @@
 .noton{
     color: orange;
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding: 2%;
+}
+.half-width img{
+    width: 85%;
+}
