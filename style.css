@@ -33,14 +33,21 @@ body{
 }
 .system{
     box-shadow: 10px 10px 40px gray;
-    border-radius: 50px;
-    height: 50%;
+    border-radius: 5px;
+    height: 30%;
 }
-.third-area{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
+
 #full-stack{
-    border-left: 5px solid ;
+    border-left: 10px solid ;
+    border-image: linear-gradient(180deg, blue,yellow);
+    border-image-slice: 1;
 }
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient( 180deg,blue,cyan);
+    border-image-slice: 1;;
+}
+footer p{
+    text-align: center;
+}
+
